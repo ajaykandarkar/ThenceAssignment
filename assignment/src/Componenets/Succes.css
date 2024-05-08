@@ -1,0 +1,73 @@
+.main {
+    width: 718px; 
+    height: 357px; 
+    top: 221px;
+    left: 361px; 
+    gap: 41px; 
+    opacity: 0; 
+}
+
+.insideMain{
+    width: 718px; /* Fixed width of 718 pixels */
+    height: auto; /* Height adjusts to fit content */
+    top: 221px; /* Positioned 221 pixels from the top of its containing element */
+    left: 361px; /* Positioned 361 pixels from the left of its containing element */
+    gap: 41px; /* Gap between child elements if using CSS grid or flexbox */
+    opacity: 0; /* Opacity set to 0, making the element fully transparent */
+}
+
+.succes {
+    width: auto; /* Width adjusts to fit content */
+    height: auto; /* Height adjusts to fit content */
+    gap: 25px; /* Gap between child elements if using CSS grid or flexbox */
+    opacity: 0; /* Opacity set to 0, making the element fully transparent */
+}
+
+.tic-shape {
+    width: 66.67px;
+    height: 66.67px;
+    top: 6.66px;
+    left: 6.67px;
+    gap: 0px;
+    opacity: 0;
+    background: var(--Semantics-Green-400, #28B246);
+    clip-path: polygon(0% 50%, 20% 100%, 100% 0%, 100% 100%, 0% 100%);
+    border-radius: 10px;
+}
+
+.customFont
+{
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39.6px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #2DA950;
+
+}
+
+.my-styled-text {
+    font-family: Manrope;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 35.1px;
+    text-align: center;
+    color: #727272;
+}
+
+.timer{
+    font-weight: bold !important;
+}
+
+
+.head {
+    width: 121px;
+    height: 30.5px;
+    position: absolute;
+    top: 7.86px;
+    left: 6.78px;
+    gap: 0px; /* Only relevant for flex or grid layouts */
+    opacity: 0;
+    color: #333333;
+}

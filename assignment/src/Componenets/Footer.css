@@ -1,0 +1,9 @@
+.footerdesign {
+    padding: 2px;
+    border: 1px solid transparent; 
+    border-radius: 40px 40px 40px 40px; 
+    background-color: #F5F5F5;
+    padding: 60px 60px 60px 60px;
+    gap: 0;
+   
+}

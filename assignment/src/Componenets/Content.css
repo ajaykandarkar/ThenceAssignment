@@ -1,0 +1,84 @@
+
+img{
+    height: 500px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.exploremore {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .page-item {
+    margin: 0 2px;
+  }
+  
+  .page-link {
+    color: #007bff;
+    text-decoration: none;
+    padding: 6px 12px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+  }
+  
+  .page-link:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .page-item.active .page-link {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  .dots {
+    padding: 6px 12px;
+    color: #007bff;
+  }
+  
+
+  .contentContainer{
+    padding: 32px 32px 32px 32px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .contentStyel{
+
+height: 749px;
+top: 32px;
+left: 32px;
+gap: 0px;
+border-radius: 40px 40px 40px 40px;
+opacity: 0px;
+background-color: #E8EEE7;
+;
+
+  }
+
+  .part1 {
+    width: fit-content;
+    max-width: 405px;
+    height: fit-content;
+    max-height: 111px;
+    top: 80px;
+    left: 94.5px;
+    gap: 20px;
+  }
+  
